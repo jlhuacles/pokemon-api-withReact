@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
-html{
+html {
   font-size: 62.5%;
 }
 
@@ -13,7 +13,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  
+
 }
 
 code {
@@ -21,10 +21,10 @@ code {
     monospace;
 }
 
-h1{
-  
+h1 {
+
   text-align: center;
-  
+
   position: relative;
   background-color: #ffcb05;
   height: 15vh;
@@ -33,33 +33,33 @@ h1{
   display: flex;
   align-items: center;
   justify-content: center;
- 
-  
+
+
   /* font */
   font-family: 'Rubik', sans-serif;
   font-size: 4em;
   font-weight: 700;
- 
+
 }
 
-.user-list{
-  background-color:white;
+.user-list {
+  background-color: white;
   text-align: center;
   padding: 1em;
-  
+
   display: flex;
   align-items: flex-start;
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
   margin: 1em 1em 1em 1em;
-  
+
   /* Font*/
   font-size: 1.6em;
-  
+
 }
 
-.pokemon-userlist--item{
+.pokemon-userlist--item {
   padding: 1em;
   /* background-color:gray;
   display: flex;
@@ -74,7 +74,7 @@ h1{
 
   /* font */
   color: white;
-  background-color:#c7a008;
+  background-color: #c7a008;
 }
 
 .pokemon-userlist--item img {
@@ -82,40 +82,60 @@ h1{
   height: 200px;
 }
 
-.pokemon-userlist--item_title{
-  text-transform: capitalize;
+.pokemon-userlist--item_title {
+
   margin: 0;
   padding: 0.1em;
+  font-size: 1.9em;
 
   /* font */
   font-family: Roboto, monospace;
+  text-transform: capitalize;
 }
 
-.pokemon-userlist--item_number{
+.pokemon-userlist--item_number {
   margin: 0;
   /* font */
   font-family: Roboto, monospace;
 }
 
 
-.pokemon-typelist{
-  
+.pokemon-typelist {
+
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
+.pokemon-typelist--item {
+  margin: 0px 3px 0px 3px;
+  border: 1.5px solid black;
+  padding: 0.2em;
+  border-radius: 10%;
 
-
-.grass{
-  background-color: green;
+  /* font */
+  text-transform: capitalize;
 }
+
+.nav-bottom {
+
+
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 1vh;
+  padding-bottom: 16px;
+  background-color: #2a75bb;
+  border-top: 2px solid #f00;
+
+}
+
 
 
 @media(max-width: 400px) {
 
-  .pokemon-userlist--item{
-    padding: 1em;
+  .pokemon-userlist--item {
+    padding: 0.2em;
     /* background-color:gray;
     display: flex;
     align-items: center;
@@ -126,16 +146,16 @@ h1{
     border-radius: 10%;
     width: 200px;
     height: 200px;
-    
+
   }
 
 
   .pokemon-userlist--item img {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
   }
 
-  .pokemon-userlist--item_title{
+  .pokemon-userlist--item_title {
     text-transform: capitalize;
     margin: 0px;
     padding: 0.1em;
