@@ -20,7 +20,7 @@ const colours = {
 	fairy: '#D685AD',
 };
 
-
+/* ----------------------------------------------*/
 const PokemonTypes = (tipo) => {
     
     let colorStyle = 'black';
@@ -42,4 +42,5 @@ const PokemonTypes = (tipo) => {
 }
 
 export default PokemonTypes;
+
 
